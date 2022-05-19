@@ -1,53 +1,150 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A. Programing language is any set of rules that converts stings, or graphical program elements in the case of visual
+programming languages, to various kinds of machine code output.
 
 
 
 
 What jdk contains or composed of and define each components?
-A. testing
-
+A. JDK is made up of JRE, JVM, Java, javac, javadoc, and jar.
+JRE is Java Runtime Environment
+JVM is the Java Virtual Machine
+Java is an interpreter
+javac is a compiler
+javadoc is a document generator
+jar is an archiver
 
 
 
 
 What is IDE?
-A.
+A. Integrated Development Environment is a software application that provides comprehensive facilities to computer
+   programmers for software development. It consists of a source code editor, build automation tools and a
+   debugger.
 
 
 
 What are the IDEs available in the market to support java?
-A.
+A. IntelliJ IDEA, Eclipse, MyEclipse, NetBeans, BlueJ, DrJava, jCreator, and Greenfoot.
 
 
 
 Explain the entire java life cycle.
-what is class?
+A. The java life cycle is made up of three parts; editing the program, compiling the source code,
+and executing the byte code.
+
+What is class?
+A. A class is a template used to create objects and to define object
+data types and methods.
+
+
 What is object?
+A. It is an instance of a Java class
+
+
 What is the entry point of an application?
+A. The main() method is the entry point of a Java application
+
+
 Why main is static?
+A. Java main() method is always static because then the compiler class can call it without
+the creation of an object of the class.
+
+
 Which class is the superclass of all classes?
+A. the Object class
+
+
 What is difference between path and classpath variables?
+A. path is set for java tools in java programs like java and javac which are used
+to compile code while classpath is used by system or application class loader to
+locate and load compiled java bytecodes stored in the class file.
+
+
 What is the difference between an Interface and Abstract class?
-Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A. An interface only allows you to define functionality not implement it while an
+abstract class allows you to create functionality that subclasses can implement or override.
+
+
+Can you make an Object from an Interface and Abstract class? If not how do you use it ?
+A.
+
+
 what is Access Specifier?
+
+
+
 What is OOP ? Define each feature of java OOP.
+
+
+
+
 What is Java Package and which package is imported by default?
+
+
+
 What is API? Name list of API that you have used so far.
+
+
+
 Does java support multiple inheritance, explain why or why not?
+
+
+
 What is method overloading and when it happens?
+
+
+
 Explain exceptions in java and how to handle it.
+
+
+
 What is static keyword in java? How it has been used in variables and methods ?
+
+
+
 What is final and how it has been used variables and methods?
+
+
+
+
 What is final, finally and finalize?
+
+
+
+
 What is a constructor ?
+
+
+
+
 Can we have multiple constructors in a class?
+
+
+
+
 If we don't have a constructor declared, what is called during the object creation?
+
+
+
+
 What is "this" keyword in java ?
+
+
+
+
 What is "super" keyword in java? How many possible way can you use?
+
+
+
+
 What is JVM stand for ?
+
+
+
+
 Is JVM platform independent?
 What version of java are you using?
 What is JAR stand for ?
