@@ -9,6 +9,23 @@ public class DuplicateWord {
          */
 
         String st = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
+        int wrdCount = 0;
+
+        st = st.toLowerCase();
+        String words[] = st.split(" ");
+        System.out.println("List of duplicate words: " +  words);
+
+        for (int i = 0; i < words.length; i++) {
+            wrdCount = 1;
+
+            for (int j = i + 1; j < words.length; j++) {
+                if(words[i].equals(words[j])) {
+                    wrdCount++;
+
+                    words[j] = "0";
+                }
+            }
+        }
 
     }
 

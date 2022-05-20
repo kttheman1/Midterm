@@ -16,7 +16,8 @@ git remote rm origin
 
 git remote add origin (your own github url)
 
-git init
+git initgit add .
+
 
 git add .
 
