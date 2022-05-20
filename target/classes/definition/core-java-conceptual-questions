@@ -6,7 +6,6 @@ programming languages, to various kinds of machine code output.
 
 
 
-
 What jdk contains or composed of and define each components?
 A. JDK is made up of JRE, JVM, Java, javac, javadoc, and jar.
 JRE is Java Runtime Environment
@@ -15,7 +14,6 @@ Java is an interpreter
 javac is a compiler
 javadoc is a document generator
 jar is an archiver
-
 
 
 
@@ -209,84 +207,94 @@ It is used to indicate that a field should not be part of the serialization proc
 
 
 Difference between while and do..while loop?
-
+The while loop in java executes one or more statements after testing the loop continuation condition
+at the start of each iteration. The do-while loop, however, tests the loop continuation condition after
+the first iteration has completed.
 
 
 What is Enum?
-
+An enum type is a special data type that enables for a variable to be a set of predefined constants.
 
 
 What is Iterator?
-
+It is an object that can be used to loop through collections.
 
 
 Which one will take more memory, an int or Integer?
-
+Integer takes more memory at 128 bits.
 
 
 Why is String Immutable in Java?
-
+Because String objects are cached in the String pool.
 
 
 What is constructor chaining in Java?
-
+The process of invoking a sequence of constructor upon initialization of a class object.
 
 
 The difference between Serial and Parallel Garbage Collector?
-
+A serial garbage collector uses a single thread for garbage collection process while the parallel
+garbage collector uses multiple threads for the garbage collection.
 
 
 What is JIT stands for?
-
+Just-In-Time
 
 
 Explain Java Heap space and Garbage collection?
-
-
+Java heap space: the area of memory used to store objects instantiated by applications running on the JVM
+Garbage collection: It automatically determines what memory is no longer being used by a Java application
+and recycles this memory for other uses.
 
 Can you guarantee the garbage collection process?
-
+No
 
 
 What is the difference between stack and heap in Java?
-
+Heap is used throughout the application but stack is only used for the methods currently running.
 
 
 What is reflection in java and why is it useful?
+Reflection is a feature that allows an executing java program to examine or introspect upon itself and
+it manipulates internal properties of the program.
 
 
-
-what is multithreading in java?
+What is multithreading in java?
+Multithreading refers to a process of executing two or more threads simultaneously for maximum utilization
+of the CPU.
 
 
 
 What is the use of synchronization in Java?
-
+Synchronization in java is the capability to control the access of multiple threads to any shared resource.
 
 
 What is Framework?
+It's a platform for developing software apps and java programs.
 
 
-
-What are the testing Framework available in java?
-
+What are the testing Frameworks available in java?
+JUnit, JBehave, Serenity, Selenium, TestNG, Mockito, HTTPUnit, Gauge, and Geb.
 
 
 Difference between jUnit and testNG?
-
+JUnit is an open-source framework used to trigger and write tests. TestNG is a Java-based
+framework that is an upgraded option for running tests. JUnit does not support to run parallel tests.
 
 
 What are the dependencies for this project?
+Finish to start
 
 
-
-what is dependency injection in java?
-
+What is dependency injection in java?
+Dependency injection is the concept in which objects get other required objects from outside.
 
 
 What is static binding and dynamic binding?
-
-
+Static binding: the execution of a program where type of object is determined at compile
+time, this is when the compiler executes the code it know the type of object or class to which object belongs.
+Dynamic binding: When the compiler resolves the method call binding during the execution of the program.
+Binding takes place during the actual execution of the program.
 
 
 
