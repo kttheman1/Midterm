@@ -22,6 +22,10 @@ public class UseArrayList {
 		// remove component from array list
 		String str = animals.remove(2);
 
+		// access array list
+		str = animals.get(1);
+		System.out.println("accessed selection 1: " + str);
+
 		// change component on array list
 		animals.set(1, "Tiger");
 
