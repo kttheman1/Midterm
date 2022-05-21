@@ -13,7 +13,7 @@ public class DuplicateWord {
 
         st = st.toLowerCase();
         String words[] = st.split(" ");
-        System.out.println("List of duplicate words: " +  words);
+        System.out.println("List of duplicate words: " + wrdCount);
 
         for (int i = 0; i < words.length; i++) {
             wrdCount = 1;

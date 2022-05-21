@@ -283,7 +283,7 @@ framework that is an upgraded option for running tests. JUnit does not support t
 
 
 What are the dependencies for this project?
-Finish to start
+mongo java driver, my sql connector and testing
 
 
 What is dependency injection in java?

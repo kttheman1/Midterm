@@ -27,11 +27,11 @@ public class LowestNumber {
 			}
 		}
 		System.out.println("The lowest number in this array is: " + array[0]);
-				}
-			}
+	}
+}
 
 
-		//find lowest number from the array
+//find lowest number from the array
 
 //		ConnectToSqlDB connectToSqlDB = new ConnectToSqlDB();
 //		List<String> lowestValue = new ArrayList<String>();
